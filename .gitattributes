@@ -1,4 +1,6 @@
 *.nt filter=lfs diff=lfs merge=lfs -text
 *.pkl filter=lfs diff=lfs merge=lfs -text
+data/*.nt filter=lfs diff=lfs merge=lfs -text
+trans-e-embeddings/*.pkl filter=lfs diff=lfs merge=lfs -text
 data/dbpedia-reference-kg.nt filter=lfs diff=lfs merge=lfs -text
 trans-e-embeddings/trained_model.pkl filter=lfs diff=lfs merge=lfs -text
